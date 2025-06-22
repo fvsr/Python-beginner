@@ -23,8 +23,26 @@
 # pergunta ao usuário seu nome (exemplo de pseudocode)
 name = input("What's your name? ") # Observar o espaço depois do sinal de interrogação.
 
+# Parâmetros que a fnção print pode receber:
+# print(*objects, sep=' ', end='\n', file=sys.stdout, flush=false)
+
 # Diz hello para o usuário (exemplo de pseudocode)
+print("Hello, ",)
+print(name)
+
+# Aqui corrige o problema de a saída estar em duas linhas:
+print("Hello, ", end="")
+print(name)
+
+# Acrescenta algo entre os objetos de saída: 
+print("Hello", end="|")
+print(name)
+
+# A mesma coisa de outra forma
 print("Hello, " + name) # Observar o espaço depois da vírgula.
 
-# Podemos escrever a linha de código anterior deste jeito também
+# Outro exemplo:
+print("Hello ",name,sep="- ")
+
+# E assim também:
 print("Hello,",name) #Esta linha de comando acrescenta um espaço para cada argumento depois do texto.
