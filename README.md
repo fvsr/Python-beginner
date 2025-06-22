@@ -16,5 +16,5 @@ ou programas que contém folhas de dados);
 - pode ser usado o comando "cd .." para subir um diretório;
 - usar "git add 'nome_do_programa.extensão'" para adicionar o arquivo
 (no caso ele salvou todas as mudanças feitas no Codespaces);
-- usar "git commit" para marcar um ponto de backup;
+- usar "git commit -m 'mensagem_de_observação'" para marcar um ponto de backup;
 - usar "git push" para salvar.
