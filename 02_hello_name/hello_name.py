@@ -1,6 +1,9 @@
 # Este programa pergunta seu nome,
 # e depois imprime "Hello, " junto com seu nome na saída.
 
+# Parâmetros que a fnção print pode receber:
+# print(*objects, sep=' ', end='\n', file=sys.stdout, flush=false)
+
 # Escrever alguma coisa direto no programa, assim
 # print("Hello, fvsr") se chama em inglês "to hardcode your name",
 # e não é isso que queremos.
@@ -23,9 +26,6 @@
 # pergunta ao usuário seu nome (exemplo de pseudocode)
 name = input("What's your name? ") # Observar o espaço depois do sinal de interrogação.
 
-# Parâmetros que a fnção print pode receber:
-# print(*objects, sep=' ', end='\n', file=sys.stdout, flush=false)
-
 # Diz hello para o usuário (exemplo de pseudocode)
 print("Hello, ",)
 print(name)
@@ -46,3 +46,11 @@ print("Hello ",name,sep="- ")
 
 # E assim também:
 print("Hello,",name) #Esta linha de comando acrescenta um espaço para cada argumento depois do texto.
+
+# Para fazer as aspas aparecerem no texto final:
+print("Hello, \"friend\"",name)
+
+#Saída usando uma "f str", ou uma string formatada, equivalente aos operadores de formatação (%) em C:
+print(f"Hello, {name}") # o 'f' indica que as chaves são para formatar o texto
+
+
