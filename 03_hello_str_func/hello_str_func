@@ -1,0 +1,29 @@
+# Este código usa funções que formatam strings de entrada,
+# para captar melhor o que é digitado.
+
+# Pergunta ao usuário o seu nome.
+name = input("What's your name? ")
+
+# Remove espaços em branco da string digitada.
+#name = name.strip() # Retira espaços em branco a esquerda e direita do nome e salva as mudanças numa variável.
+
+# Muda o primeiro caracter de uma string para maiúscula.
+#name = name.capitalize()
+
+# Muda o primeiro caracter de cada palavra de uma string para maiúscula.
+#name = name.title()
+
+# Podemos colocar as funções strip() e title() e uma só linha.
+name = name.strip().title()
+
+# Podemos compactar mais ainda, colocando a entrada de dados e as manipulações de strings em uma só linha.
+# name = input("What's your name? ").strip().title()
+
+# Esta função divide uma strings em duas strings menores, usando o espaço como referência.
+first, last = name.split(" ")
+
+# Diz hello para o usuário.
+#print(f"Hello, {name}.")
+
+# Diz hello para o usuário, e formata nome e sobrenome recebidos na função que divide uma string em duas.
+print(f"Hello, {first} {last}.")
