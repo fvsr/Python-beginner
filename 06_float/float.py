@@ -4,6 +4,9 @@
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
+# Para que o float não mostre um número muito grande de casas decimais podemos arredondar,
+# seja durante o cálculo ou ao final, na exibição do resultado.
+
 # z = (x / y) # Se o arredondamento não for feito aqui
             # é feito na formatação de texto como no terceiro exemplo de print()  
 # z = round(x / y) # Arredonda para o inteiro mais próximo abaixo ou acima.
