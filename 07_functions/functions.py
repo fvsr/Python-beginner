@@ -17,6 +17,7 @@ name = input("What's your name? ")
 hello()
 print(name)
 """
+# A função tem que ser definida em linhas anteriores, antes de ser chamada.
 
 # A mesma função, mas usando passagem de parâmetro:
 def hello(to="world"): # É atribuido o valor default caso não seja passado um valor para a função.
