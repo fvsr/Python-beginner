@@ -19,8 +19,12 @@ print(name)
 """
 
 # A mesma função, mas usando passagem de parâmetro:
-def hello(to="world"): # Aqui o valor default para a variável to (to="world!") não funcionou, parece ser um erro comum em Python.
+def hello(to="world"): # É atribuido o valor default caso não seja passado um valor para a função.
     print("Hello,",to)
+
+hello() # Na primeira vez que a função é chamada,
+        # não está sendo passado um parâmetro para função, 
+        # então entra o valor default.
 
 name = input("What's your name? ")
 hello(name)
