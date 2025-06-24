@@ -19,7 +19,7 @@ print(name)
 """
 
 # A mesma função, mas usando passagem de parâmetro:
-def hello(to):
+def hello(to): # Aqui o valor default para to (to="world!") não funcionou, parece ser um erro comum em Python.
     print("Hello,",to)
 
 name = input("What's your name? ")
