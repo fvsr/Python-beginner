@@ -1,5 +1,6 @@
 # Python-beginner
-This repository contains code examples from the Havard CS50's Introduction to Programming with Python course.
+This repository contains code examples from the Havard CS50's Introduction to Programming with Python course, and refers to this video
+https://youtu.be/nLRL_NcnK-4?si=6R_m_EsAWG81Zp8K&utm_source=MTQxZ, on freeCodeCamp.org's Youtube channel.
 
 ## Licença
 
