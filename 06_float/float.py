@@ -11,7 +11,6 @@ z = round(x + y) # Arredonda para o inteiro mais próximo abaixo ou acima.
 print(f"{z:,}") # Formata a saída com a vírgula entre a casa do milhar e das centenas, 
                 # o modo americano de representar 1000, assim: 1,000
 
-
 # Função de arredondamento:
 # round(number[, ndigits])
 # Os colchetes, [], em inglês square brackets, onde bracket significa parêntese,
