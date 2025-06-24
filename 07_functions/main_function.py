@@ -19,7 +19,7 @@ def main(): # Deixa claro que esta é a parte principal do programa
 def hello(to="world!"):
     print("Hello,",to)
 
-main()
+main() # Sem a chamada da função main o código não roda.
 
 # Este é o erro com relação ao escopo da variável:
 """
