@@ -30,6 +30,7 @@ else:
 """
 
 # otimizando ainda mais com o comando 'match'.
+"""
 name = input("What's your name? ")
 
 match name:
@@ -43,8 +44,9 @@ match name:
         print("Slytherin")
     case _: # Similar ao "default" do "switch" em C.
         print("Who?")
+"""
 
-# otimizando a sintaxe do o comando 'match'.
+# Otimizando com o uso do 'or'.
 name = input("What's your name? ")
 
 match name:
