@@ -38,6 +38,8 @@ elif x == y:
 # Este programa evita a última pergunta, 
 # pois pela lógica se as duas primeiras perguntas retornam falso,
 # então a última resposta é obrigatoriamente verdadeira.
+# Esta otimização reduz o tempo de processamento e pode fazer diferenças em programas grandes,
+# ou em grandes quantidades de dados onde se repete o teste muitas vezes.
 
 x = int(input("What's x? "))
 y = int(input("What's y? "))
@@ -46,5 +48,5 @@ if x < y:
     print("x is less than y")
 elif x > y:
     print("x is greater than y")
-else:
+else: 
     print("x is equal to y")
