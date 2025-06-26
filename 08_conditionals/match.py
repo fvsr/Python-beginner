@@ -42,4 +42,15 @@ match name:
     case "Draco":
         print("Slytherin")
     case _: # Similar ao "default" do "switch" em C.
+        print("Who?")
+
+# otimizando a sintaxe do o comando 'match'.
+name = input("What's your name? ")
+
+match name:
+    case "Harry" | "Hermione" | "Ron":
+        print("Gryffindor")
+    case "Draco":
+        print("Slytherin")
+    case _:
         print("Who?") 
