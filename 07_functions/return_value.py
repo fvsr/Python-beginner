@@ -6,7 +6,7 @@ def main():
     print("x squared is", square(x))
 
 def square(n):
-    return n * n # Outras maneiras de calcular o quadrado de um número:
+    return n * n # Outras maneiras de calcular o quadrado de um número em Python:
                  # n ** 2
                  # pow(n,2)
 
