@@ -18,6 +18,7 @@ else:
 """
 
 # Otimizando o código anterior.
+"""
 name = input("What's your name? ")
 
 if name == "Harry" or name == "Hermione" or name == "Ron":
@@ -26,4 +27,19 @@ elif name == "Draco":
     print("Slytherin")
 else:
     print("Who?")
+"""
 
+# otimizando ainda mais com o comando 'match'.
+name = input("What's your name? ")
+
+match name:
+    case "Harry":
+        print("Gryffindor")
+    case "Hermione":
+        print("Gryffindor")
+    case "Ron":
+        print("Gryffindor")
+    case "Draco":
+        print("Slytherin")
+    case _: # Similar ao "default" do "switch" em C.
+        print("Who?") 
