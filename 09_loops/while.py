@@ -8,12 +8,14 @@ print("meow")
 """
 
 # A função print permite fazer a mesma coisa de outro jeito.
-print("meow\n" * 3, end="") # O \n (lê-se contrabarra ene) abre uma nova linha
-                            # depois de cada impressão,
-                            # mas no fim a parâmetro "end="" evita que abra uma quarta linha.
-                            # A função print permite usar o sinal de multiplicação "*"
-                            # como um operador para o argumento "3".
-
+# O \n (lê-se contrabarra ene) abre uma nova linha
+# depois de cada impressão,
+# mas no fim a parâmetro "end="" evita que abra uma quarta linha.
+# A função print permite usar o sinal de multiplicação "*"
+# como um operador para o argumento "3".
+"""
+print("meow\n" * 3, end="") 
+"""
 # Entretanto este código não tem flexibiidade quanto ao número de repetições,
 # nem quanto ao texto que é repetido.
 
