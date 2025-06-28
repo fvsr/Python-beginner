@@ -36,7 +36,23 @@ for student in students:
 # para isso usamos a função "len()".
 # Não podemos passar a lista "students" para a função "range()" diretamente
 # porque "range()" só aceita inteiros como entrada. 
+"""
 students = ["Hermione","Harry","Ron"]
 
 for i in range(len(students)):
     print(students[i])
+"""
+
+# Uma variação da saída do mesmo código, imprime um número para cada nome.
+"""
+students = ["Hermione","Harry","Ron"]
+
+for i in range(len(students)):
+    print(i, students[i])
+"""
+
+# O mesmo código, mas evite atribuir zero para um nome, o primeiro nome recebe número 1.
+students = ["Hermione","Harry","Ron"]
+
+for i in range(len(students)):
+    print(i+1, students[i])
