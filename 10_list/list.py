@@ -20,7 +20,23 @@ print(students[2])
 # Notar que no "for" em Python não é necessário iniciar a variável que vaz o papel de índice,
 # nem incrementar essa variável, nem testar se a lista chegou ao fim.
 # Aqui o "for" simpesmente imprime a lista inteira.
+# A variável "student" não é um índice,
+# ela assume os elementos da lista de nomes "students",
+# um a cada impressão. 
+"""
 students = ["Hermione","Harry","Ron"]
 
 for student in students:
     print(student)
+"""
+
+# Neste caso "i" é um índice.
+# A função "range()" faz o índice variar,
+# mas para isso precisamos saber o número de elementos da lista,
+# para isso usamos a função "len()".
+# Não podemos passar a lista "students" para a função "range()" diretamente
+# porque "range()" só aceita inteiros como entrada. 
+students = ["Hermione","Harry","Ron"]
+
+for i in range(len(students)):
+    print(students[i])
