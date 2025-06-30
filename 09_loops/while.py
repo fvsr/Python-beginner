@@ -41,7 +41,7 @@ while i!= 0:
     i = i - 1
 """
 
-# Aqui é feita uma otimização na contagem,
+# Aqui é feita uma otimização na contagem
 # seguindo o padrão em programação de contar a partir de zero até o valor desejado menos um.
 i = 0
 while i < 3:
