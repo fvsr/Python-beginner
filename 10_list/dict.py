@@ -65,10 +65,17 @@ for student in students:
 """
 
 # Neste exemplo vamos fazer uma lista com vários dicionários dentro.
-# A palavra "None" em Python representa oficialmente a ausência de um valor. 
+# A palavra "None" em Python representa oficialmente a ausência de um valor.
+# Um dicionário é um conjunto de pares chave (key) e valor, entre chaves.
+# Cada dicionário tem três chaves ou palavras, "name", "house" e "patronus"
+# e as chaves tem três definições ou valores, "Hermione", "Gryffindor" e "Otter".
+
 students = [
     {"name": "Hermione", "house": "Gryffindor", "patronus": "Otter"},
     {"name": "Harry",    "house": "Gryffindor", "patronus": "Stag" },
     {"name": "Ron",      "house": "Gryffindor", "patronus": "Jack Russel terrier"},
     {"name": "Draco",    "house": "Slytherin",  "patronus": None}
 ]
+
+for student in students:
+    print(student["name"], student["house"], student["patronus"], sep=", ")
