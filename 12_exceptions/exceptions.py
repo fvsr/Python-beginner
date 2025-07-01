@@ -79,12 +79,9 @@ print(f"x is {x}")
 # Caso haja um erro na segunda linha,
 # são executadas e a terceira e quarta linhas e encerra.
 # O comando "else" só é executado caso o comando "try" seja executado sem erros.   
-"""
 try:
     x = int(input("What's x? "))
 except ValueError:
     print("x is not an integer")
 else:
     print(f"x is {x}")
-""" 
-
