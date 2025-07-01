@@ -2,8 +2,8 @@
 
 # Colocamos agora um loop de repetição no prompt do usuário,
 # desse modo podemos dar mais de uma oportunidade de inserir o tipo de dado desejado.
-# Vamos usar agora o comando "break", ele é importante aqui,
-# é o modo pelo qual o programa eventualmente sai do loop.
+# Vamos usar agora o comando "break",
+# é através dele que o programa eventualmente sai do loop.
 """
 while True:
     try:
