@@ -1,5 +1,6 @@
 # Exceções ocorrem quando aconteceu algum problema no código.
 # Para isso existem as mensagens de erro.
+# Comandos "try", "except" e "else".
 
 # Vamos provocar um erro para vericar qual a mensagem de erro que é retornada.
 """
@@ -87,16 +88,3 @@ else:
     print(f"x is {x}")
 """ 
 
-# Colocando um loop de repetição no prompt do usuário,
-# desse modo podemos dar mais de uma oportunidade de ser inserido o tipo de dado desejado.
-#"""
-while True:
-    try:
-        x = int(input("What's x? "))
-    except ValueError:
-        print("x is not an integer")
-    else:
-        break
-
-print(f"x is {x}")
-#""" 
