@@ -150,7 +150,6 @@ main()
 # Usando o comando "prompt".
 # Aqui a mensagem para o usuário é impressa pela chamada da função "get_int()",
 # e a leitura do teclado é feita pela função "input()", dentro da função "get_int()".
-"""
 def main():
     x = get_int("What's x? ")
     print(f"x is {x}")
@@ -163,5 +162,3 @@ def get_int(prompt):
             pass
     
 main()
-"""
-
