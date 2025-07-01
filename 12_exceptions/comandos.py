@@ -1,4 +1,4 @@
-# Comandos "break",
+# Comandos "break", "return", "pass" e "prompt".
 
 # Colocamos agora um loop de repetição no prompt do usuário,
 # desse modo podemos dar mais de uma oportunidade de inserir o tipo de dado desejado.
@@ -164,3 +164,4 @@ def get_int(prompt):
     
 main()
 """
+
