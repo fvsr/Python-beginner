@@ -1,6 +1,9 @@
 # Comandos "import" e "from", para bibliotecas e funções,
 # biblioteca "random" e as funções "choice", "randint" e "shuffle".
 
+# Este arquivo de código não pode ter o mesmo nome que uma biblioteca Python,
+# caso contrário as funções "import" e "from" vão buscar funções neste arquivo e não vão encontrar.
+
 # Bibliotecas são arquivos de códigos que outras pessoas escreveram 
 # que eu posso usar em meus programas.
 # É a habilidade de compartilhar código entre pessoas ou entre meus programas.
